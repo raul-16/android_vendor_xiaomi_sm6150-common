@@ -119,6 +119,8 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libdiag \
     libdsutils \
+    libfastcvdsp_stub \
+    libfastcvopt \
     libgpudataproducer \
     libgsl \
     libidl \
@@ -136,6 +138,12 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
+    libscveCommon \
+    libscveCommon_stub \
+    libscveObjectSegmentation \
+    libscveObjectSegmentation_stub \
+    libscveObjectTracker \
+    libscveObjectTracker_stub \
     libvpphvx \
     libvpplibrary \
     vendor.qti.hardware.vpp@1.1 \
@@ -376,6 +384,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
+    vendor.qti.hardware.scve.objecttracker@1.0 \
+    vendor.qti.hardware.scve.panorama@1.0 \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
