@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
-    libmmosal_vendor \
+    libmmosal \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
@@ -176,7 +176,7 @@ PRODUCT_PACKAGES += \
     libvppclient \
     libasphere \
     libshoebox \
-    com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.dpm.api@1.0-vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -332,7 +332,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.fm@1.0-vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
@@ -375,10 +375,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0_vendor \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    com.qualcomm.qti.dpm.api@1.0_system_ext \
+    com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
@@ -393,9 +393,9 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libimsmedia_jni \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0_system_ext \
-    vendor.qti.imsrtpservice@3.0_system_ext \
-    vendor.qti.imsrtpservice@3.1_system_ext \
+    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.1 \
     CACertService \
     CneApp \
     IWlanService \
@@ -415,8 +415,10 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     qti-telephony-common \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-service \
+    android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.qti.gnss@4.0-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -429,8 +431,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@4.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti-hta \
-    android.hardware.neuralnetworks@1.3-service-qti \
     qcrild \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
